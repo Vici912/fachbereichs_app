@@ -22,9 +22,9 @@ class _HomeScreenState extends State<HomeScreen> {
       BottomNavigationBarItem(
         icon: Icon(Icons.home), title:Text("Räume")),
        BottomNavigationBarItem(
-        icon: Icon(Icons.accessibility), title:Text("Professoren")),
+        icon: Icon(Icons.supervisor_account), title:Text("Professoren")),
       BottomNavigationBarItem(
-        icon: Icon(Icons.mail), title:Text("Kontakt")),
+        icon: Icon(Icons.mail_outline), title:Text("Kontakt")),
      /* BottomNavigationBarItem(
         icon: Icon(Icons.access_alarm), title:Text("Alarm")),**/
     ];

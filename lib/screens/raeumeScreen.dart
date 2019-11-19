@@ -28,6 +28,11 @@ class _RaeumeScreenState extends State<RaeumeScreen> {
               ),
 
               Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Image(image: AssetImage('assets/Raum.jpg')),
+              ),
+
+              Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: SizedBox(
                   height: 40,

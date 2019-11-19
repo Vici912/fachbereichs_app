@@ -16,8 +16,8 @@ class _KontaktScreenState extends State<KontaktScreen> {
 
             children: <Widget>[
               Padding(
-                padding: const EdgeInsets.all(30.0),
-                child: Image(image: AssetImage('assets/ai.png')),
+                padding: const EdgeInsets.all(20.0),
+                child: Image(image: AssetImage('assets/Logo-Hochschule.png')),
               ),
 
 
@@ -28,9 +28,26 @@ class _KontaktScreenState extends State<KontaktScreen> {
                 child: Column(
                   children: <Widget>[
                     Text("Telefonnummer:"),
-                    Text("+49 661 9640-300/302/3053")],
+                    Text("+49 661 9640-300/302/3053"),
+                  ],
                 ),
-              )
+              ),
+
+
+              Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  children: <Widget>[
+                    Text("Mitten in Deutschland, am Rand des Rhein-Main-Ballungsraumes, "
+                        "liegt die Stadt Fulda mit rund 65.000 Einwohnern verkehrsgünstig "
+                        "an den Nord‑Süd‑Verbindungen von Eisenbahn‑ und Autobahn‑Linien. "
+                        "In der hübschen Barockstadt, die auch reichliche Freizeitmöglichkeiten bietet, "
+                        "ist der Wohnungsmarkt noch immer entspannter als in vielen anderen Städten. ")
+                  ],
+                ),
+              ),
+
+
 
 
             ],

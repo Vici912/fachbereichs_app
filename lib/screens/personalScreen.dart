@@ -16,7 +16,7 @@ class _PersonalScreenState extends State<PersonalScreen> {
           children: <Widget>[
 
             Padding(
-              padding: const EdgeInsets.all(20.0),
+              padding: const EdgeInsets.all(10.0),
               child: Text(
                 "Hier findest du Informationen zu den einzelnen Lehrbeauftragten und deren Sprechstunden",
                 style: TextStyle(fontSize: 16.0),
@@ -24,8 +24,14 @@ class _PersonalScreenState extends State<PersonalScreen> {
 
             ),
 
+
             Padding(
               padding: const EdgeInsets.all(20.0),
+               child: Image(image: AssetImage('assets/Raum.jpg')),
+             ),
+
+            Padding(
+              padding: const EdgeInsets.all(10.0),
               child: SizedBox(
                 height: 40,
                 width: double.infinity,
@@ -45,7 +51,7 @@ class _PersonalScreenState extends State<PersonalScreen> {
             ),
 
             Padding(
-              padding: const EdgeInsets.all(20.0),
+              padding: const EdgeInsets.all(10.0),
               child: SizedBox(
                 height: 40,
                 width: double.infinity,
