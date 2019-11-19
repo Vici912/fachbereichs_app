@@ -15,16 +15,16 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
 
-    final titel= <String>["Räume", "Lehrende", "Kontakt"];
+    final titel= <String>["Räume", "Professoren", "Kontakt"];
     final seiten = <Widget>[RaeumeScreen(),PersonalScreen(),KontaktScreen()];
 
     final items = <BottomNavigationBarItem>[
       BottomNavigationBarItem(
-        icon: Icon(Icons.location_city), title:Text("Räume")),
+        icon: Icon(Icons.home), title:Text("Räume")),
        BottomNavigationBarItem(
-        icon: Icon(Icons.accessibility), title:Text("Lehrende")),
+        icon: Icon(Icons.accessibility), title:Text("Professoren")),
       BottomNavigationBarItem(
-        icon: Icon(Icons.mail_outline), title:Text("Kontakt")),
+        icon: Icon(Icons.mail), title:Text("Kontakt")),
      /* BottomNavigationBarItem(
         icon: Icon(Icons.access_alarm), title:Text("Alarm")),**/
     ];

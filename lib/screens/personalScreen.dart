@@ -16,66 +16,49 @@ class _PersonalScreenState extends State<PersonalScreen> {
           children: <Widget>[
 
             Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: SizedBox(
-                height: 50,
-                width: double.infinity,
-                child:FlatButton(
-                color: Colors.blue,
-                textColor: Colors.white,
-                disabledColor: Colors.grey,
-                disabledTextColor: Colors.black,
-                padding: EdgeInsets.all(8.0),
-                splashColor: Colors.blueAccent,
-                onPressed: () {
-                  /*...*/
-                },
-                child: Text(
-                  "Professuren",
-                  style: TextStyle(fontSize: 20.0),
-                ),
-              ),),
+              padding: const EdgeInsets.all(20.0),
+              child: Text(
+                "Hier findest du Informationen zu den einzelnen Lehrbeauftragten und deren Sprechstunden",
+                style: TextStyle(fontSize: 16.0),
+              ),
+
             ),
 
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(20.0),
               child: SizedBox(
-                height: 50,
+                height: 40,
                 width: double.infinity,
                 child:FlatButton(
-                  color: Colors.blue,
+                  color: Colors.lightGreen,
                   textColor: Colors.white,
-                  disabledColor: Colors.grey,
-                  disabledTextColor: Colors.black,
                   padding: EdgeInsets.all(8.0),
                   splashColor: Colors.blueAccent,
                   onPressed: () {
                     /*...*/
                   },
                   child: Text(
-                    "Mitarbeitende",
+                    "Mitarbeiter",
                     style: TextStyle(fontSize: 20.0),
                   ),
                 ),),
             ),
 
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(20.0),
               child: SizedBox(
-                height: 50,
+                height: 40,
                 width: double.infinity,
                 child:FlatButton(
-                  color: Colors.blue,
+                  color: Colors.lightGreen,
                   textColor: Colors.white,
-                  disabledColor: Colors.grey,
-                  disabledTextColor: Colors.black,
                   padding: EdgeInsets.all(8.0),
                   splashColor: Colors.blueAccent,
                   onPressed: () {
                     /*...*/
                   },
                   child: Text(
-                    "Lehrbeauftragte",
+                    "Dozenten",
                     style: TextStyle(fontSize: 20.0),
                   ),
                 ),),

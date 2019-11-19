@@ -17,13 +17,23 @@ class _RaeumeScreenState extends State<RaeumeScreen> {
           child: Column(
             children: <Widget>[
 
+
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(20.0),
+                    child: Text(
+                      "Hier findest du Informationen zu den Belegungen der Räume",
+                      style: TextStyle(fontSize: 16.0),
+                    ),
+
+              ),
+
+              Padding(
+                padding: const EdgeInsets.all(10.0),
                 child: SizedBox(
-                  height: 50,
+                  height: 40,
                   width: double.infinity,
                   child:FlatButton(
-                    color: Colors.blue,
+                    color: Colors.lightGreen,
                     textColor: Colors.white,
                     disabledColor: Colors.grey,
                     disabledTextColor: Colors.black,
@@ -40,12 +50,12 @@ class _RaeumeScreenState extends State<RaeumeScreen> {
               ),
 
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(10.0),
                 child: SizedBox(
-                  height: 50,
+                  height: 40,
                   width: double.infinity,
                   child:FlatButton(
-                    color: Colors.blue,
+                    color: Colors.lightGreen,
                     textColor: Colors.white,
                     disabledColor: Colors.grey,
                     disabledTextColor: Colors.black,
@@ -59,28 +69,6 @@ class _RaeumeScreenState extends State<RaeumeScreen> {
                     },
                     child: Text(
                       "Labor",
-                      style: TextStyle(fontSize: 20.0),
-                    ),
-                  ),),
-              ),
-
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: SizedBox(
-                  height: 50,
-                  width: double.infinity,
-                  child:FlatButton(
-                    color: Colors.blue,
-                    textColor: Colors.white,
-                    disabledColor: Colors.grey,
-                    disabledTextColor: Colors.black,
-                    padding: EdgeInsets.all(8.0),
-                    splashColor: Colors.blueAccent,
-                    onPressed: () {
-                      /*...*/
-                    },
-                    child: Text(
-                      "Ausleihe",
                       style: TextStyle(fontSize: 20.0),
                     ),
                   ),),

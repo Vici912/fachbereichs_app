@@ -18,7 +18,7 @@ class _LaborScreenState extends State<LaborScreen> {
 
           Card(
             child: ListTile(
-              leading: Icon(Icons.check),
+              leading: Icon(Icons.check_box_outline_blank),
               title: Text('51.103'),
               trailing: Icon(Icons.update),
             ),
@@ -32,7 +32,7 @@ class _LaborScreenState extends State<LaborScreen> {
           ),
           Card(
             child: ListTile(
-              leading: Icon(Icons.check),
+              leading: Icon(Icons.check_box),
               title: Text('51.103'),
               trailing: Icon(Icons.update),
             ),
@@ -46,46 +46,21 @@ class _LaborScreenState extends State<LaborScreen> {
           ),
           Card(
             child: ListTile(
-              leading: Icon(Icons.check),
+              leading: Icon(Icons.check_box),
               title: Text('51.103'),
               trailing: Icon(Icons.update),
             ),
           ),
           Card(
             child: ListTile(
-              leading: Icon(Icons.close),
+              leading: Icon(Icons.check_box),
               title: Text('51.209'),
               trailing: Icon(Icons.update),
             ),
           ),
-          Card(
-            child: ListTile(
-              leading: Icon(Icons.check),
-              title: Text('51.103'),
-              trailing: Icon(Icons.update),
-            ),
-          ),
-          Card(
-            child: ListTile(
-              leading: Icon(Icons.close),
-              title: Text('51.209'),
-              trailing: Icon(Icons.update),
-            ),
-          ),
-          Card(
-            child: ListTile(
-              leading: Icon(Icons.check),
-              title: Text('51.103'),
-              trailing: Icon(Icons.update),
-            ),
-          ),
-          Card(
-            child: ListTile(
-              leading: Icon(Icons.close),
-              title: Text('51.209'),
-              trailing: Icon(Icons.update),
-            ),
-          ),
+
+
+
         ],
       )
     );
