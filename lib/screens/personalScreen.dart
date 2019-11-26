@@ -1,5 +1,7 @@
 
 import 'package:flutter/material.dart';
+import 'package:fachbereichs_app/screens/profsScreen.dart';
+
 
 class PersonalScreen extends StatefulWidget {
   @override
@@ -61,7 +63,10 @@ class _PersonalScreenState extends State<PersonalScreen> {
                   padding: EdgeInsets.all(8.0),
                   splashColor: Colors.blueAccent,
                   onPressed: () {
-                    /*...*/
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => ProfScreen()),
+                    );
                   },
                   child: Text(
                     "Dozenten",
