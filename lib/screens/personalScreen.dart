@@ -68,6 +68,7 @@ class _PersonalScreenState extends State<PersonalScreen> {
                       MaterialPageRoute(builder: (context) => ProfScreen()),
                     );
                   },
+
                   child: Text(
                     "Dozenten",
                     style: TextStyle(fontSize: 20.0),
