@@ -38,7 +38,7 @@ class _RaeumeScreenState extends State<RaeumeScreen> {
                   height: 40,
                   width: double.infinity,
                   child:FlatButton(
-                    color: Colors.lightGreen,
+                    color: Colors.grey,
                     textColor: Colors.white,
                     disabledColor: Colors.grey,
                     disabledTextColor: Colors.black,
@@ -60,7 +60,7 @@ class _RaeumeScreenState extends State<RaeumeScreen> {
                   height: 40,
                   width: double.infinity,
                   child:FlatButton(
-                    color: Colors.lightGreen,
+                    color: Colors.grey,
                     textColor: Colors.white,
                     disabledColor: Colors.grey,
                     disabledTextColor: Colors.black,

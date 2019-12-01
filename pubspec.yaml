@@ -44,6 +44,9 @@ flutter:
   assets:
      - assets/Logo-Hochschule.png
      - assets/Raum.jpg
+     - assets/deutsch.png
+     - assets/informatik.png
+     - assets/mathe.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
