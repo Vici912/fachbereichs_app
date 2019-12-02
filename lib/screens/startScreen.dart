@@ -1,5 +1,4 @@
 
-import 'package:fachbereichs_app/screens/laborScreen.dart';
 import 'package:flutter/material.dart';
 
 class StartScreen extends StatefulWidget {
@@ -76,7 +75,7 @@ class _StartScreenState extends State<StartScreen> {
             ),
             SizedBox(height: 40.0),
             Container(
-              height: MediaQuery.of(context).size.height - 185.0,
+              height: MediaQuery.of(context).size.height - 180.0,
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(topLeft: Radius.circular(75.0)),
@@ -88,7 +87,7 @@ class _StartScreenState extends State<StartScreen> {
                   Padding(
                     padding: EdgeInsets.only(top: 45.0),
                     child: Container(
-                      height: MediaQuery.of(context).size.height - 300.0,
+                      height: MediaQuery.of(context).size.height - 350.0,
                       child: ListView(
                         children: [
                           _buildFoodItem('assets/deutsch.png', 'Deutsch', '10€'),
@@ -98,9 +97,59 @@ class _StartScreenState extends State<StartScreen> {
                       ),
                     ),
                   ),
+
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: <Widget>[
+                      Container(
+                        height: 65.0,
+                        width: 60.0,
+                        decoration: BoxDecoration(
+                          border: Border.all(
+                            color: Colors.grey,
+                            style: BorderStyle.solid,
+                            width: 1.0),
+                          borderRadius: BorderRadius.circular(10.0),
+                        ),
+                        child: Center(
+                          child: Icon(Icons.search, color: Colors.grey),
+                        ),
+                      ),
+
+                      Container(
+                        height: 65.0,
+                        width: 60.0,
+                        decoration: BoxDecoration(
+                          border: Border.all(
+                              color: Colors.grey,
+                              style: BorderStyle.solid,
+                              width: 1.0),
+                          borderRadius: BorderRadius.circular(10.0),
+                        ),
+                        child: Center(
+                          child: Icon(Icons.add_shopping_cart, color: Colors.grey),
+                        ),
+                      ),
+
+                      Container(
+                        height: 65.0,
+                        width: 80.0,
+                        decoration: BoxDecoration(
+                          color: Colors.black,
+                          borderRadius: BorderRadius.circular(10.0),
+                        ),
+                        child: Center(
+                          child: Icon(Icons.check, color: Colors.white),
+                        ),
+                      ),
+                    ],
+                  ),
+
                 ],
               ),
             ),
+
+
           ],
         )
 
@@ -125,8 +174,8 @@ class _StartScreenState extends State<StartScreen> {
                     child: Image(
                       image: AssetImage(imgPath),
                       fit: BoxFit.cover,
-                      height: 75.0,
-                      width: 75.0,
+                      height: 70.0,
+                      width: 70.0,
                     ),
                   ),
 
@@ -160,6 +209,7 @@ class _StartScreenState extends State<StartScreen> {
               icon: Icon(Icons.add),
               color: Colors.black,
               onPressed: () {},
+
             )
           ],
         ),
