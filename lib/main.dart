@@ -2,7 +2,6 @@
 import 'package:fachbereichs_app/screens/startScreen.dart';
 import 'package:flutter/material.dart';
 
-import 'screens/homeScreen.dart';
 
 void main() => runApp(MyApp());
 
@@ -25,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.lightGreen,
       ),
-      home: HomeScreen(),
+      home: StartScreen(),
     );
   }
 }

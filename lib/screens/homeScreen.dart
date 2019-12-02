@@ -1,6 +1,4 @@
-import 'package:fachbereichs_app/screens/kontaktScreen.dart';
-import 'package:fachbereichs_app/screens/personalScreen.dart';
-import 'package:fachbereichs_app/screens/raeumeScreen.dart';
+
 import 'package:fachbereichs_app/screens/startScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
 
     final titel= <String>["Räume", "Professoren", "Kontakt","Start"];
-    final seiten = <Widget>[RaeumeScreen(),PersonalScreen(),KontaktScreen(),StartScreen()];
+    final seiten = <Widget>[StartScreen()];
 
     final items = <BottomNavigationBarItem>[
       BottomNavigationBarItem(

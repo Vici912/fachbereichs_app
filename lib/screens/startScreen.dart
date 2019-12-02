@@ -1,4 +1,5 @@
 
+import 'package:fachbereichs_app/screens/detailsScreen.dart';
 import 'package:flutter/material.dart';
 
 class StartScreen extends StatefulWidget {
@@ -52,7 +53,7 @@ class _StartScreenState extends State<StartScreen> {
               ),
             ),
 
-            SizedBox(height: 25.0,),
+            SizedBox(height: 15.0,),
             Padding(
               padding: EdgeInsets.only(left: 40.0),
               child: Row(
@@ -73,9 +74,9 @@ class _StartScreenState extends State<StartScreen> {
                 ],
               ),
             ),
-            SizedBox(height: 40.0),
+            SizedBox(height: 30.0),
             Container(
-              height: MediaQuery.of(context).size.height - 180.0,
+              height: MediaQuery.of(context).size.height - 160.0,
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(topLeft: Radius.circular(75.0)),
@@ -97,7 +98,7 @@ class _StartScreenState extends State<StartScreen> {
                       ),
                     ),
                   ),
-
+                  SizedBox(height: 50.0),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: <Widget>[
@@ -161,6 +162,10 @@ class _StartScreenState extends State<StartScreen> {
       padding: EdgeInsets.only(left: 10.0, right: 10.0, top: 20.0),
       child: InkWell(
         onTap: () {
+          Navigator.of(context).push(MaterialPageRoute(
+            builder: (context) => DetailsScreen(heroTag: imgPath, foodName: foodName, foodPrice: price)
+
+          ));
 
         },
         child: Row(
