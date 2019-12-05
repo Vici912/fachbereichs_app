@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:fachbereichs_app/screens/profsScreen.dart';
 
 
+
 class PersonalScreen extends StatefulWidget {
   @override
   _PersonalScreenState createState() => _PersonalScreenState();
