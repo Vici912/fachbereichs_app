@@ -10,7 +10,6 @@ class PersonalScreen extends StatefulWidget {
 }
 
 
-
 class _PersonalScreenState extends State<PersonalScreen> {
   @override
   Widget build(BuildContext context) {
