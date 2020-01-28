@@ -1,19 +1,19 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class DetailsScreen extends StatefulWidget {
+class DetailsBasic2Screen extends StatefulWidget {
 
   final heroTag;
   final foodName;
   final foodPrice;
 
-  DetailsScreen({this.heroTag, this.foodName, this.foodPrice});
+  DetailsBasic2Screen({this.heroTag, this.foodName, this.foodPrice});
 
   @override
-  _DetailsScreenState createState() => _DetailsScreenState();
+  _DetailsBasic2ScreenState createState() => _DetailsBasic2ScreenState();
 }
 
-class _DetailsScreenState extends State<DetailsScreen> {
+class _DetailsBasic2ScreenState extends State<DetailsBasic2Screen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -171,7 +171,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                            fontSize: 18.0)),
 
                          SizedBox(width: 30.0, height: 15.0,),
-                          Text('Unser Angebot erstreckt sich über alle Klassenstufen. Wir bieten einen Kurs zu Flutter an, in dem man lernt, wie man eine App erstellt. Außerdem haben wir auch Kuse in Java und C. Für Interessierte gibt es Kurse  wie man eine Webseite erstellt mit HTML und CSS.',
+                          Text('Hier müsste etwas zu basic 2 stehen.',
 
                               style: TextStyle(
                               fontFamily: 'Montserrat',
