@@ -35,6 +35,10 @@ class _DetailsBasic1ScreenState extends State<DetailsBasic1Screen> {
           )
         ],
       ),
+
+
+
+     /*
       body: ListView(
         children: [
           Stack(
@@ -183,47 +187,6 @@ class _DetailsBasic1ScreenState extends State<DetailsBasic1Screen> {
 
 
 
-              Positioned(
-                top: 450.0,
-                left: 30.0,
-                child: Container(
-                  height: 200.0,
-                  width: 350.0,
-                  padding: EdgeInsets.all(15.0),
-                  decoration: BoxDecoration(
-                    border: Border.all(
-                        color: Colors.grey,
-                        style: BorderStyle.solid,
-                        width: 1.0),
-                    borderRadius: BorderRadius.circular(10.0),
-                  ),
-
-                  child: Column(
-                    children: <Widget>[
-                      SizedBox(width: 30.0, height: 5.0,),
-                      Text('Learning',
-                          style: TextStyle(
-                              fontFamily: 'Montserrat',
-                              color: Colors.grey,
-                              fontWeight: FontWeight.bold,
-                              fontSize: 18.0)),
-
-                      SizedBox(width: 30.0, height: 15.0,),
-                      Text('Container 2.',
-
-                          style: TextStyle(
-                              fontFamily: 'Montserrat',
-                              color:Colors.grey,
-
-                              fontSize: 15.0))
-                    ],
-
-                  ),
-                ),
-              ),
-
-
-
             ],
 
           ),
@@ -231,16 +194,111 @@ class _DetailsBasic1ScreenState extends State<DetailsBasic1Screen> {
         ],
 
       ),
+          */
+
+          body: ListView(
+            padding: const EdgeInsets.all(15),
+            children: <Widget>[
+
+          Hero(
+          tag: widget.heroTag,
+            child: Container(
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage(widget.heroTag),
+                  )
+              ),
+              height: 100.0,
+              width: 100.0,
+            ),
+          ),
+
+
+          SizedBox(height: 30.0),
+
+        Container(
+          height: 100.0,
+          width: 300.0,
+          padding: EdgeInsets.all(15.0),
+          decoration: BoxDecoration(
+            border: Border.all(
+                color: Colors.black,
+                style: BorderStyle.solid,
+                width: 3.0),
+            borderRadius: BorderRadius.circular(10.0),
+          ),
+          child: const Center(child: Text('Lektion 1')),
+        ),
+
+          SizedBox(height: 30.0),
+
+          Container(
+            height: 100.0,
+            width: 300.0,
+            padding: EdgeInsets.all(15.0),
+            decoration: BoxDecoration(
+              border: Border.all(
+                  color: Colors.black,
+                  style: BorderStyle.solid,
+                  width: 3.0),
+              borderRadius: BorderRadius.circular(10.0),
+            ),
+            child: const Center(child: Text('Lektion 2')),
+          ),
+
+          SizedBox(height: 30.0),
+
+          Container(
+            height: 100.0,
+            width: 300.0,
+            padding: EdgeInsets.all(15.0),
+            decoration: BoxDecoration(
+              border: Border.all(
+                  color: Colors.black,
+                  style: BorderStyle.solid,
+                  width: 3.0),
+              borderRadius: BorderRadius.circular(10.0),
+            ),
+            child: const Center(child: Text('Lektion 3')),
+          ),
+
+          SizedBox(height: 30.0),
+
+          Container(
+            height: 100.0,
+            width: 300.0,
+            padding: EdgeInsets.all(15.0),
+            decoration: BoxDecoration(
+              border: Border.all(
+                  color: Colors.black,
+                  style: BorderStyle.solid,
+                  width: 3.0),
+              borderRadius: BorderRadius.circular(10.0),
+            ),
+            child: const Center(child: Text('Lektion 4')),
+          ),
+
+          SizedBox(height: 30.0),
+
+          Container(
+            height: 100.0,
+            width: 300.0,
+            padding: EdgeInsets.all(15.0),
+            decoration: BoxDecoration(
+              border: Border.all(
+                  color: Colors.black,
+                  style: BorderStyle.solid,
+                  width: 3.0),
+              borderRadius: BorderRadius.circular(10.0),
+            ),
+            child: const Center(child: Text('Lektion 4')),
+          ),
+
+            ],
+          )
+
+
     );
-
-
-
-
-
-
-
-
-
 
 
   }
